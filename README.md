@@ -110,3 +110,8 @@ numpy>=1.21.0
 ```
 
 Pro C engine: `gcc` (Linux/WSL).
+
+---
+
+##Zdroje
+vytvořeno za pomoci Claude Code, inspirace pro tréninkové minimaxy z edax a oracle enginů
