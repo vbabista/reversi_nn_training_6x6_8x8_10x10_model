@@ -113,5 +113,5 @@ Pro C engine: `gcc` (Linux/WSL).
 
 ---
 
-##Zdroje
+## Zdroje
 vytvořeno za pomoci Claude Code, inspirace pro tréninkové minimaxy z edax a oracle enginů
