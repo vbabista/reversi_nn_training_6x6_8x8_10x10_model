@@ -342,20 +342,6 @@ class LiveDashboard:
 
     Kazda deska ma vlastni panel. Dashboard cte log soubory
     a prekresluje terminal kazdych REFRESH_INTERVAL sekund.
-
-    Priklad rozvrzeni (3 desky, terminal 120 sloupcu):
-
-    =========================================================
-      REVERSI RL – Paralelni trenink  | CPU:8 | 6x6 8x8 10x10
-    =========================================================
-     [ 6x6 ]               [ 8x8 ]               [ 10x10 ]
-     ████████░░░░  62.4%    ███░░░░░░░░  27.1%    █░░░░░░  8.3%
-     Ep:  46800/75000       Ep:  23100/85000       Ep:  6600/80000
-     W: 63.2%  L: 31.1%     W: 58.4%  L: 34.7%    W: 51.0%  L: 44.3%
-     Loss: 0.00412          Loss: 0.00831           Loss: 0.01204
-     Faze: mm_c_strong      Faze: mm_py_d6          Faze: greedy
-     ·····················  ·····················   ·····················
-     [posledni radky logu]  [posledni radky logu]   [posledni radky logu]
     """
 
     REFRESH   = 3.0     # sekundy
