@@ -341,7 +341,7 @@ class MinimaxOpponent:
 
     def __init__(self, depth: int = 3, board_size: int = 8,
                  randomize: bool = True, n_workers: int = 0):
-        assert 1 <= depth <= 8, 
+        assert 1 <= depth <= 8, 'depth musí být 1-8'
         self.depth      = depth
         self.board_size = board_size
         self.randomize  = randomize
